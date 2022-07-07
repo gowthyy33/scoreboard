@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+
+
+body{
+    background-color: #90e0ef;
+    
+}
+
+.scoreboard {
+    background-color:#0077b6 ;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    border:  2px solid #0096c7;
+    margin-top: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 20px;
+    border-radius: 40px;
+}
+.buttons-h {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 105px;
+    font-size: 40px;
+}
+
+
+.buttons-a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 105px;
+    font-size: 40px;
+}
+
+.foul-a {
+    padding: 10px;
+}
+#score-h {
+    background-color: black;
+    color: red;
+    border: 2px solid black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    font-family: calculator;
+    font-size: 50px;
+    
+}
+
+#score-a {
+    background-color: black;
+    color: red;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    font-family: calculator;
+    font-size: 50px;
+}
+
+.home {
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+}
+
+.away {
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+}
+
+.score-title {
+    text-align: center;
+    margin-top: 290px;
+    margin-bottom: -290px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@font-face {
+    font-family: calculator;
+    src: url("./digital-7\ \(mono\).ttf");
+}
+
+
+.newgame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

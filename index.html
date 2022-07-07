@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket Ball</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="score-title">Score board</h1>
+    <div class="scoreboard">
+        
+        <div class="home">
+            <h2 class="title">Home</h2>
+            <h2 id="score-h">0</h2>
+            <div class="buttons-h">
+                <button id="add1" onclick="addOne()">+1</button>
+                <button id="add3" onclick="addThree()">+3</button>
+                <button id="add5" onclick="addFive()">+5</button>
+                <button id="foul-h" onclick="foulHome()">Foul</button>
+                <button id="bonus-h" onclick="bonusHome()">Bonus</button>
+                
+            </div>
+        </div>
+    
+        <div class="away">
+            <h2 class="title">Away</h2>
+            <h2 id="score-a">0</h2>
+            <div class="buttons-a">
+                <button id="addOne" onclick="add1()">+1</button>
+                <button id="addThree" onclick="add3()">+3</button>
+                <button id="addFive" onclick="add5()">+5</button>
+                <button id="foul-a" onclick="foulAway()">Foul</button>
+                <button id="bonus-a" onclick="bonusAway()">Bonus</button>
+            </div>
+        </div>
+
+    </div>
+    <button class="newgame" onclick="newGame()">New Game</button>
+
+    
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
